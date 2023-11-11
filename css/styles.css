@@ -37,33 +37,7 @@ a {
   font-style: normal;
   color: #2e2f42;
 }
-h1 {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #ffffff;
-  max-width: 496px;
-}
 
-h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  text-align: center;
-  margin-bottom: 72px;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
 .list {
   list-style-type: none;
 }
@@ -693,10 +667,12 @@ section {
   .mobile-block-item {
     margin-bottom: 72px;
   }
-
+  .mobile-block-item:last-child {
+    margin-bottom: 0;
+  }
   .nav-top-mobile {
     display: block;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
   }
   .nav-mobile-item {
     font-weight: 500;
@@ -711,7 +687,7 @@ section {
   .social-mobile-menu {
     display: flex;
     gap: 40px;
-    padding: 0;
+    padding-top: 48px;
   }
 }
 
