@@ -523,7 +523,6 @@ section {
   margin-bottom: 16px;
   color: #4d5ae5;
   padding-left: 30%;
-  padding-right: 32%;
 }
 
 .down-span-logo {
@@ -541,13 +540,13 @@ section {
   letter-spacing: 0.02em;
   color: #ffffff;
   padding-left: 32%;
-  padding-right: 35%;
+
   margin-bottom: 16px;
 }
 .social-list-down {
   display: flex;
-  padding-left: 17.5%;
-  padding-right: 17.5%;
+  padding-left: 15%;
+
   gap: 16px;
   margin-bottom: 72px;
 }
@@ -568,11 +567,11 @@ section {
   letter-spacing: 0.02em;
   color: #ffffff;
   padding-left: 35%;
-  padding-right: 38%;
+
   margin-bottom: 16px;
 }
 .foter-form-menu {
-  padding-left: 10%;
+  padding-left: 5%;
 }
 .input-size {
   font-size: 12px;
