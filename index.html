@@ -33,12 +33,10 @@
               >
             </li>
             <li class="menu-nav-item">
-              <a class="link-nav link link-active" href="#portfolio"
-                >Portfolio</a
-              >
+              <a class="link-nav" href="#portfolio">Portfolio</a>
             </li>
             <li class="menu-nav-item">
-              <a class="link-nav link link-active" href="#contacts">Contacts</a>
+              <a class="link-nav" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -88,7 +86,7 @@
               </div>
 
               <h3 class="benefits-head-text">Strategy</h3>
-              <p>
+              <p class="mobile-benefits-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -101,7 +99,7 @@
               </div>
 
               <h3 class="benefits-head-text">Punctuality</h3>
-              <p>
+              <p class="mobile-benefits-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -114,7 +112,7 @@
               </div>
 
               <h3 class="benefits-head-text">Diligence</h3>
-              <p>
+              <p class="mobile-benefits-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -127,7 +125,7 @@
               </div>
 
               <h3 class="benefits-head-text">Technologies</h3>
-              <p>
+              <p class="mobile-benefits-text end">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -522,8 +520,8 @@
     </main>
     <!-- FOOTER -->
     <footer class="down-section-menu">
-      <div class="container footer">
-        <div class="container-tablet-footer">
+      <div class="container">
+        <div class="tablet-footer">
           <div class="container-block-menu">
             <a class="down-logo-text link" href="./index.html">
               web<span class="down-span-logo">Studio</span>
@@ -570,28 +568,27 @@
         </div>
 
         <!-- FOOTER FORM -->
-        <div class="container-tablet-footer">
-          <div class="footer-form-container">
-            <p class="paragraph-text-subscribe">Subscribe</p>
-            <form class="foter-form-menu">
-              <label class="footer-label-form">
-                <input
-                  class="input-size"
-                  type="email"
-                  name="email"
-                  placeholder="E-mail"
-                />
-              </label>
-              <div class="footer-button-container">
-                <button class="footer-button" type="submit">
-                  Subscribe
-                  <svg class="social-list-icon-telegram" width="24" height="24">
-                    <use href="./images/icons.svg#icon-icon-send"></use>
-                  </svg>
-                </button>
-              </div>
-            </form>
-          </div>
+
+        <div class="footer-form-container">
+          <p class="paragraph-text-subscribe">Subscribe</p>
+          <form class="foter-form-menu">
+            <label class="footer-label-form">
+              <input
+                class="input-size"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <div class="footer-button-container">
+              <button class="footer-button" type="submit">
+                Subscribe
+                <svg class="social-list-icon-telegram" width="24" height="24">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -695,8 +692,13 @@
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="privacy-policy-link" href="#">Privacy Policy</a>
+              <div class="privacy-block">
+                <span class="mobile-privacy"
+                  >I accept the terms and conditions of the</span
+                >
+
+                <a class="privacy-policy-link" href="#">Privacy Policy</a>
+              </div>
             </label>
           </div>
           <button class="review-form-button" type="submit">Send</button>
@@ -707,68 +709,72 @@
     <div class="mobile-menu">
       <div class="container mobile-menu-container">
         <button
-          class="modal-close-button"
+          class="mobile-menu-close-btn"
           type="button"
           aria-label="modal close-button"
         >
-          <svg class="close-svg" width="8" height="8">
+          <svg class="mobile-menu-close-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
-        <div class="backdrop-mobile">
-          <nav class="mobile-container-menu">
-            <ul class="mobile-block-menu">
-              <li class="mobile-block-item"><a class="mobile-menu-nav" href="">Studio</a></li>
-              <li class="mobile-block-item"><a class="mobile-menu-nav" href="">Portfolio</a></li>
-              <li class="mobile-block-item"><a class="mobile-menu-nav" href="">Contacts</a></li>
-            </ul>
-          </nav>
-          <address class="nav-top-mobile">
-            <ul class="nav-mobile-menu list">
-              <li class="nav-mobile-item">
-                <a class="link-mobile link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-              <li class="nav-mobile-item">
-                <a class="link-mobile link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              
-            </ul>
-          </address>
-        
-        <ul class="social-mobile-menu">
-          <li class="social-mobile-item">
-            <a href="#" class="social-list-link">
-              <svg class="social-list-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-mobile-item">
-            <a href="#" class="social-list-link">
-              <svg class="social-list-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-mobile-item">
-            <a href="#" class="social-list-link">
-              <svg class="social-list-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-mobile-item">
-            <a href="#" class="social-list-link">
-              <svg class="social-list-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+
+        <div class="mobile-main-block">
+          <ul class="mobile-block-menu list">
+            <li class="mobile-block-item">
+              <a class="mobile-menu-link link" href="">Studio</a>
+            </li>
+            <li class="mobile-block-item">
+              <a class="mobile-menu-link link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-block-item">
+              <a class="mobile-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+
+          <ul class="nav-mobile-menu list list">
+            <li class="nav-mobile-item">
+              <a class="link-mobile link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="nav-mobile-item">
+              <a class="link-mobile link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="social-mobile-menu list">
+            <li class="social-mobile-item">
+              <a href="#" class="social-list-link">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-mobile-item">
+              <a href="#" class="social-list-link">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-mobile-item">
+              <a href="#" class="social-list-link">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-mobile-item">
+              <a href="#" class="social-list-link">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
