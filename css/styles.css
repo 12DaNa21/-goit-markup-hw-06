@@ -988,6 +988,7 @@ body {
     margin-bottom: 16px;
   }
   .foter-form-menu {
+    align-items: center;
     display: flex;
     gap: 24px;
   }
@@ -1226,7 +1227,6 @@ body {
 
   .foter-form-menu {
     display: flex;
-    align-items: center;
     gap: 24px;
   }
   /* =============/ FOOTER SECTION DESKTOP/========== */
