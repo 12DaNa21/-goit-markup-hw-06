@@ -1033,7 +1033,9 @@ body {
     padding-top: 0;
     padding-bottom: 0;
   }
-
+  .link-nav {
+    padding: 24px 0;
+  }
   .nav-contacts-item {
     padding: 24px 0;
   }
