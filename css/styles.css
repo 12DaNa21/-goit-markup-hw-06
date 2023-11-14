@@ -302,7 +302,7 @@ body {
 
 /* ============== HEADER MOBILE STYLES ============== */
 .menu-nav-top,
-.nav-top-contacts {
+.nav-contacts-menu.list {
   display: none;
 }
 
