@@ -1226,6 +1226,7 @@ body {
 
   .foter-form-menu {
     display: flex;
+    align-items: center;
     gap: 24px;
   }
   /* =============/ FOOTER SECTION DESKTOP/========== */
