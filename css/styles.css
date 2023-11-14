@@ -882,15 +882,6 @@ body {
   .social-list.list.header {
     display: none;
   }
-  .nav-top-contacts {
-    display: block;
-  }
-  .nav-contacts-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding: 8px 0;
-  }
 
   .link-contacts {
     font-weight: 400;
@@ -969,6 +960,15 @@ body {
   /* ================ FOOTER FORM TABLET================== */
 }
 @media (min-width: 768px) and (max-width: 1157px) {
+  .nav-top-contacts {
+    display: block;
+  }
+  .nav-contacts-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px 0;
+  }
   .down-section-menu .container {
     padding: 96px 0;
     margin: 0 auto;
