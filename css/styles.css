@@ -302,7 +302,7 @@ body {
 
 /* ============== HEADER MOBILE STYLES ============== */
 .menu-nav-top,
-.nav-contacts-menu.list {
+.nav-top-contacts {
   display: none;
 }
 
@@ -863,15 +863,13 @@ body {
     transition-duration: 250ms;
   }
 
-  
-    .link-nav.link.link-active:hover::after,
-.link-nav.link.link-active:focus::after {
-  display: block;
-  width: 100%;
-  color: #404bbf;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .link-nav.link.link-active:hover::after,
+  .link-nav.link.link-active:focus::after {
+    display: block;
+    width: 100%;
+    color: #404bbf;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .link-nav:hover,
