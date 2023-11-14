@@ -1028,6 +1028,7 @@ body {
 
   .nav-contacts-menu {
     display: flex;
+    background-color: red;
     flex-direction: row;
     gap: 40px;
     padding-top: 0;
